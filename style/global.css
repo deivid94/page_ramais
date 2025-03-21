@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+:root{
+        --bg-color:var(#EBE8DB);
+        --border-color:var(#D76C82);
+        --font-color:var(#3D0301);
+
+        
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h1 {
+    color: var(--font-color);
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+body {
+    background-color: var(--bg-color);
+    
+    
+}
