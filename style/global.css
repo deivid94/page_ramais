@@ -6,6 +6,8 @@
 
     -webkit-font-smoothing: antialised;
     -moz-osx-font-smoothing: grayscale;
+    list-style: none;
+
 
 }
 
@@ -30,7 +32,14 @@ h1 {
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: #777777 ;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    
+}
+
+a {
+    text-decoration: none;
 }

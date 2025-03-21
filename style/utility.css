@@ -1,20 +1,26 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
     
-    
+
 }
 
 .grid {
     display: grid;
 }
 
-.grid-2-colums {
-    grid-template-columns: 1fr, 1fr;
+.flow-col {
+    grid-template-columns: 1fr 1fr;
 }
 
-.grid-1-colums {
-    grid-template-columns: 1fr;
+.gap {
+    gap: 1rem;
+}
+.label {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    
+
 }
