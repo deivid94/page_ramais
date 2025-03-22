@@ -1,0 +1,17 @@
+footer {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    height: 50px;
+    margin-top: 2rem;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+.hgi {
+    color: white;
+    font-size: 32px;
+    
+}

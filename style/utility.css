@@ -1,16 +1,16 @@
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 1280px;
-    margin: 0 auto;
-    
-
+        
 }
 
 .grid {
     display: grid;
 }
 
-.flow-col {
-    grid-template-columns: 1fr 1fr;
+.flow-col{
+    grid-template-columns: repeat(1fr 1fr);
 }
 
 .gap {
@@ -18,9 +18,40 @@
 }
 .label {
     height: 50px;
-    border: 1px solid black;
-    border-radius: 8px;
-    text-align: center;
+    border: 2px solid black;
+    background: linear-gradient(to right, #ccc 5%, red 100% );
+    border-radius: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    cursor: pointer;
+    
+    
     
 
+}
+.label:hover {
+    border-radius:1rem ;
+    background: none;
+    
+}
+
+
+.button-transfer {
+    
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    background-color: black;
+    padding: 2px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.icon {
+    height: 32px;
+    
+}
+
+.margin-r {
+    margin-right: 5px;
 }

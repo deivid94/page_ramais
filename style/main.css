@@ -1,0 +1,15 @@
+main {
+    border: 1px solid #ccc ;
+    h1{
+        display: block;
+        text-align: center;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        
+    }
+    
+}
