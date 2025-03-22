@@ -1,8 +1,19 @@
 header {
+    margin-bottom: 2rem;
     padding: 2rem;
+    
     
     .logo {
         height: 150px;
+        transform: scale(1);
     }
+    .logo:hover{
+        transition: 1ms;
+    }
+     
     
+}
+header::after{
+    border: 1px solid black;
+
 }
