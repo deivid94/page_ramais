@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font: inherit;
 
     -webkit-font-smoothing: antialised;
@@ -11,7 +10,7 @@
 
 }
 
-*::before{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,12 +34,13 @@ body {
     background-color: #777777 ;
     background: rgb(83, 79, 79);
     background: linear-gradient(0deg, rgb(83, 79, 79) 0%, rgba(204,204,204,1) 35%);
-    height: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+
+
 
 a {
     text-decoration: none;

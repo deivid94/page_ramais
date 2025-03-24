@@ -1,19 +1,17 @@
 header {
-    margin-bottom: 2rem;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 60px;
     padding: 2rem;
-    
     
     .logo {
         height: 150px;
-        transform: scale(1);
+        filter: drop-shadow(1px 1px 1px );
     }
     .logo:hover{
         transition: 1ms;
     }
      
-    
 }
-header::after{
-    border: 1px solid black;
 
-}
+

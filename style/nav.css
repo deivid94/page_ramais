@@ -3,4 +3,5 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     height: 100px;
+    margin-bottom: 30px;
     }

@@ -1,7 +1,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    width: 1280px;
+
         
 }
 
@@ -16,22 +17,34 @@
 .gap {
     gap: 1rem;
 }
+
 .label {
     height: 50px;
-    border: 2px solid black;
-    background: linear-gradient(to right, #ccc 5%, red 100% );
-    border-radius: 1rem;
+    background: linear-gradient(to right, #ccc 20%, red 100% );
+    border:none;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    border-radius: 50px;
     font-weight: 600;
     padding: 1rem;
     cursor: pointer;
+    text-shadow: 2px 2x 2px #4b4949;
     
     
-    
+  
 
 }
 .label:hover {
-    border-radius:1rem ;
+    border-radius:50px ;
     background: none;
+    color: red;
+    border: 1px solid #4b4949;
+    transition-property: border, color;
+    transition-duration: 700ms , 1ms,;
+    transition-delay: 200ms;
+    
+    
+
     
 }
 
@@ -50,6 +63,11 @@
 .icon {
     height: 32px;
     
+}
+.icon:hover {
+    transform: scale(1);
+    transition: 200ms;
+    transition-delay: 200ms;
 }
 
 .margin-r {

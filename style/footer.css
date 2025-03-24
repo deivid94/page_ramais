@@ -3,15 +3,22 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));
     height: 50px;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem 0;
     justify-items: center;
     align-items: center;
-    
-
 }
 
-.hgi {
+.hgi  {
     color: white;
-    font-size: 32px;
+    font-size: 40px;
+    filter: drop-shadow(1px 1px 1px black);
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-delay: 200ms;
     
+}
+
+.hgi:hover{
+    
+    transform: translateX(20px)
 }
