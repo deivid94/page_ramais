@@ -5,7 +5,7 @@ header {
     padding: 2rem;
     
     .logo {
-        height: 150px;
+        height: 120px;
         filter: drop-shadow(1px 1px 1px );
     }
     .logo:hover{
