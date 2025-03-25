@@ -29,6 +29,7 @@
     padding: 1rem;
     cursor: pointer;
     text-shadow: 2px 2x 2px #4b4949;
+    color: black;
     
     
   
@@ -37,15 +38,14 @@
 .label:hover {
     border-radius:50px ;
     background: none;
-    color: red;
     border: 1px solid #4b4949;
-    transition-property: border, color;
-    transition-duration: 700ms , 1ms,;
-    transition-delay: 200ms;
     
-    
+}
 
-    
+.disabled {
+    pointer-events: none;
+    color: #aaa;
+    cursor: not-allowed;
 }
 
 
@@ -63,11 +63,6 @@
 .icon {
     height: 32px;
     
-}
-.icon:hover {
-    transform: scale(1);
-    transition: 200ms;
-    transition-delay: 200ms;
 }
 
 .margin-r {
