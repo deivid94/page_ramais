@@ -1,7 +1,7 @@
 footer {
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(80px, auto));
     height: 50px;
     margin: 2rem 0 2rem 0;
     justify-items: center;
@@ -21,7 +21,7 @@ footer {
 @media (max-width:430px){
     footer {
         li:nth-child(1) {
-            border: 1px solid red;
+            
         }
     }
 }
