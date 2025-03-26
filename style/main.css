@@ -6,7 +6,7 @@ main {
         display: block;
         text-align: center;
         font-size: 4rem;
-        border: 1px solid red;
+        
     }
     
     .content {
@@ -18,7 +18,7 @@ main {
     
 }
 
-@media (max-width:380px){
+@media (max-width:430px){
     main {
             display: grid;
             grid-template-columns: 1fr;

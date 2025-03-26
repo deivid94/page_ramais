@@ -50,9 +50,9 @@
 }
 
 
-@media (max-with: 380px) {
+@media (max-with: 430px) {
     .container {
-      width: 380px;
+      width: 430px;
       
     }
 

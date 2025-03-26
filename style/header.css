@@ -10,7 +10,7 @@ header {
     transition: 1ms;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .logo {
     width: 320px;
     height: 50px;
