@@ -6,6 +6,7 @@ footer {
     margin: 2rem 0 2rem 0;
     justify-items: center;
     align-items: center;
+
 }
 
 .hgi  {
@@ -15,10 +16,12 @@ footer {
     transition-property: transform;
     transition-duration: 200ms;
     transition-delay: 200ms;
-    
 }
 
-.hgi:hover{
-    
-    transform: translateX(20px)
+@media (max-width:380px){
+    footer {
+        li:nth-child(1) {
+            border: 1px solid red;
+        }
+    }
 }

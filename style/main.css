@@ -5,6 +5,8 @@ main {
     h1{
         display: block;
         text-align: center;
+        font-size: 4rem;
+        border: 1px solid red;
     }
     
     .content {
@@ -14,4 +16,27 @@ main {
         
     }
     
+}
+
+@media (max-width:380px){
+    main {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            border: none;
+            
+
+        h1 {
+            font-size: 2rem;
+            justify-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .content{
+            display:grid;
+            grid-template-columns: 1fr;
+            
+        }
+        
+    }
 }
