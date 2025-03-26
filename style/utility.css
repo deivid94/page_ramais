@@ -1,69 +1,65 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 1280px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  width: 100%;
+}
 
-        
+@media (max-with: 380px) {
+  .container {
+    background-color: lightblue;
+  }
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
-.flow-col{
-    grid-template-columns: repeat(1fr 1fr);
+.flow-col {
+  grid-template-columns: repeat(1fr 1fr);
 }
 
 .gap {
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .label {
-    height: 50px;
-    background: linear-gradient(to right, #ccc 20%, red 100% );
-    border:none;
-    opacity: 0.8;
-    font-size: 1.5rem;
-    border-radius: 50px;
-    font-weight: 600;
-    padding: 1rem;
-    cursor: pointer;
-    color: black;
-    
-    
-  
-
+  height: 50px;
+  background: linear-gradient(to right, #ccc 20%, red 100%);
+  border: none;
+  opacity: 0.8;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 1rem;
+  cursor: pointer;
+  color: black;
 }
 .label:hover {
-    border-radius:50px ;
-    background: none;
-    border: 1px solid #4b4949;
-    
+  border-radius: 50px;
+  background: none;
+  border: 1px solid #4b4949;
 }
 
 .disabled {
-    pointer-events: none;
-    color: #aaa;
-    cursor: not-allowed;
+  pointer-events: none;
+  color: #aaa;
+  cursor: not-allowed;
 }
-
 
 .button-transfer {
-    
-    border-radius: 50px;
-    border: 1px solid #ccc;
-    background-color: black;
-    padding: 2px;
-    color: white;
-    font-weight: 400;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: black;
+  padding: 2px;
+  color: white;
+  font-weight: 400;
 }
 
-
 .icon {
-    height: 32px;
-    
+  height: 32px;
 }
 
 .margin-r {
-    margin-right: 5px;
+  margin-right: 5px;
 }
